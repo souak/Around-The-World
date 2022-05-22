@@ -16,8 +16,6 @@ const closeNav = document.querySelector(".close-navbar-icon");
 const container = document.querySelector(".container");
 const formInput = document.querySelector("input");
 
-//functions
-
 //event listeners
 
 openNav.addEventListener("click", () => {

@@ -565,14 +565,10 @@ body {
     padding: 1rem;
     border: none;
     background-color: transparent;
-    /* background-color: var(--secondary-color); */
-    /* border: .1rem solid var(--secondary-color); */
     font-size: 1.4rem;
     color: var(--light-gray-color);
     letter-spacing: .1rem;
-    /* border-radius: .5rem; */
     transition: border .3s;
-    /* box-shadow: 0 .1rem .5rem var(--light-gray-color); */
 }
 
 .input-group textarea {
@@ -583,15 +579,9 @@ body {
     /* resize: none; */
 }
 
-.input-group:focus-within{
+.input-group:focus-within {
     box-shadow: 0 .3rem 1rem var(--light-gray-color);
 }
-
-/* .input-group input:focus,
-.input-group textarea:focus {
-    border: .2rem solid #ccc;
-    box-shadow: .1rem .2rem 1rem var(--grey-color);
-} */
 
 .input-group label {
     display: flex;
@@ -601,9 +591,6 @@ body {
     letter-spacing: .1rem;
     text-transform: uppercase;
     color: var(--grey-color);
-    /* position: absolute; */
-    /* top: 1rem;
-    left: 1rem; */
 }
 
 .form-btn {
@@ -813,6 +800,13 @@ body {
     .popular-tours-heading {
         font-size: 2.5rem;
     }
+    .story-bg{
+        width: 35rem;
+    }
+    .story-image{
+        width: 15rem;
+        height: 15rem;
+    }
 
     .contact-heading {
         font-size: 2.5rem;
@@ -839,5 +833,8 @@ body {
 @media (max-width: 400px) {
     .contact-form {
         width: 30rem;
+    }
+    .story-bg{
+        width: 35rem;
     }
 }
