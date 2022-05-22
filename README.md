@@ -1,0 +1,1 @@
+using vanila javascrip and pure css.
