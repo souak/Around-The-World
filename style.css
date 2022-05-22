@@ -813,7 +813,7 @@ body {
     }
 
     .contact-form {
-        width: 37rem;
+        width: 50rem;
     }
 
     .footer-list {
@@ -830,9 +830,9 @@ body {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 560px) {
     .contact-form {
-        width: 30rem;
+        width: 95%;
     }
     .story-bg{
         width: 35rem;
